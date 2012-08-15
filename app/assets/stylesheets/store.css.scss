@@ -24,6 +24,22 @@
       margin-buttom: 5px;
       position: absolute;
     }
+
+    p, div.price_line {
+      margin-left: 100px;
+      margin-top: 0.5em;
+      margin-bottom: 0.8em;
+
+      .price {
+        color: #44a;
+        font-weight: bold;
+        margin-right: 3em;
+      }
+
+      form, div {
+        display: inline;
+      }
+    }
   }
 
   h3 {
@@ -35,21 +51,6 @@
     color: #227;
   }
 
-  p, div.price_line {
-    margin-left: 100px;
-    margin-top: 0.5em;
-    margin-bottom: 0.8em;
-
-    .price {
-      color: #44a;
-      font-weight: bold;
-      margin-right: 3em;
-    }
-
-    form, div {
-      display: inline;
-    }
-  }
 
 }
 
